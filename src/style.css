@@ -66,7 +66,7 @@ input[type=checkbox]:checked::before {
     color: #C2C2C2;
 }
 
-.btn-group {
+.butoane {
     display: flex;
     justify-content: space-between;
 }
