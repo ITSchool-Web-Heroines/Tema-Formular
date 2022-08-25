@@ -9,16 +9,21 @@
   <main>
     <h2>Implementare</h2>
     <form class="form">
-      <p>Nume</p>
+      <label for="name">Nume</label>
       <input type="text" placeholder="Cum te cheamă"/>
-      <p>Email</p>
+      <label for="email">Email</label>
       <input type="email" placeholder="user@domain.ext" />
-      <p>Mesaj</p>
-      <input type="textarea" placeholder="Scrie-ne ceva" />
-      <input type="checkbox"> Citesc mereu Termenii si Conditiile
-      <div>
-        <button type="button">Reseteaza Formular</button>
-      <button type="button">Trimite</button>
+      <label for="message">Mesaj</label>
+      <textarea
+      placeholder="Scrie-ne ceva" 
+      rows = 4 ></textarea
+      <div class = "checbox">
+        <input type="checkbox" />
+        <label for="">Citesc mereu Termenii și Condițiile</label>
+      </div
+      <div class="btn-group">
+        <button type="reset">Reseteaza Formular</button>
+        <button type="submit">Trimite</button>
       </div>
   </form>
   </main>
