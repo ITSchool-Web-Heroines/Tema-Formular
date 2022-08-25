@@ -4,14 +4,82 @@
   <meta charset="utf-8" />
   <title>Tema Formular</title>
   <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-  <main>
-    <h2>Implementare</h2>
-    <form>
-      <!-- Implementează formularul așa cum îl vezi în <aside> -->
-    </form>
-  </main>
+       <style>
+            .nume {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid black;
+                border-radius: 10px;
+                resize: vertical;
+            }
+
+            .resetb,
+            .sendb {
+                width: max-content;
+            }
+
+            .resetb {
+                background-color: white;
+            }
+
+            .resetb:hover,
+            .sendb:hover {
+                background-color: grey;
+            }
+
+            .sendb {
+                background-color: black;
+                color: white;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h2>Implementare</h2>
+            <form>
+                <!-- Implementează formularul așa cum îl vezi în <aside> -->
+                <p>
+                    Nume <br />
+                    <input
+                        class="nume"
+                        type="textbox"
+                        placeholder="Cum te cheama"
+                    />
+                </p>
+                <p>
+                    Email <br />
+                    <input
+                        class="email"
+                        type="email"
+                        placeholder="user@domein.ext"
+                    />
+                </p>
+                <p>
+                    Mesaj
+                    <textarea
+                        rows="5"
+                        cols="50"
+                        placeholder="Scrie-ne ceva"
+                    ></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="terms"/>
+                    <label for="terms">Citesc mereu Termenii si Conditiile</label>
+                </p>
+                <div class="buttons">
+                    <button class="resetb" type="button">
+                        Reseteaza formular
+                    </button>
+                    <button class="sendb" type="button">Trimite</button>
+                </div>
+            </form>
+        </main>
   <aside>
     <h2>Model</h2>
     <svg width="428" height="404" viewBox="0 0 428 404" fill="none" xmlns="http://www.w3.org/2000/svg">
