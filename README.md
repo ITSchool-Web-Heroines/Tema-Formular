@@ -1,9 +1,5 @@
-# Tema Formular
+# Form
 
-1. Fă-ți propriul fork. Doar din proiectul principal. **O singură dată**. Fork-ul trebuie făcut pe contul tău de GitHub.
-2. Clonează fork-ul tău pe PC-ul (inclusiv Mac) propriu
-3. Editează fișierele din folderul [src](./src/) și implementează un formular în [index.html](./src/script.js). Ar trebui să vezi în dreapta modelul după care să te ghidezi. E OK dacă nu iese exact la fel.
-4. Fă un commit 
-5. Dacă nu reușești să rezolvi complet, poți face commit la ce ai, și vei cere ajutor.
-6. Fă push pe GitHub
-7. Crează un Pull Request la [proiectul principal](https://github.com/ITSchool-Web-Heroines/Tema-DOM/pulls)
+I implemented a form using HTML and CSS. It includes various form elements such as input fields, labels, submit buttons. I used CSS to style the form and make it visually appealing. The form is functional.
+
+![Screenshot 2023-01-12 203049](https://user-images.githubusercontent.com/32037529/212149658-81e4e9a3-c73f-489b-8420-2210f3d893b7.jpg)
